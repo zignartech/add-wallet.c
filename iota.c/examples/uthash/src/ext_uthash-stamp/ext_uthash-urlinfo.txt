@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/troydhanson/uthash/archive/v2.2.0.tar.gz'
+tag='SHA256=51e31e9e349c3466c7cea25077a9bb5bc722eff2a2915410763d3616099a4b34'

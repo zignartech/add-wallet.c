@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/core_utils_bech32.dir/core/test_utils_bech32.c.o CMakeFiles/core_utils_bech32.dir/__/src/core/seed.c.o  -o core_utils_bech32   -L/home/pi/iota.c/examples/lib  -Wl,-rpath,/home/pi/iota.c/examples/lib ../src/core/libiota_core.a -lunity ../src/crypto/libiota_crypto.a -lsodium 

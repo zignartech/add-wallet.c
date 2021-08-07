@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/core_message.dir/core/test_message.c.o CMakeFiles/core_message.dir/__/src/core/seed.c.o  -o core_message   -L/home/pi/iota.c/build/lib  -Wl,-rpath,/home/pi/iota.c/build/lib ../src/core/libiota_core.a -lunity ../src/crypto/libiota_crypto.a -lsodium 

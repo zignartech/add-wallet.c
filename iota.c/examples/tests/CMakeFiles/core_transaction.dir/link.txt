@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/core_transaction.dir/core/test_transaction.c.o CMakeFiles/core_transaction.dir/__/src/core/seed.c.o  -o core_transaction   -L/home/pi/iota.c/examples/lib  -Wl,-rpath,/home/pi/iota.c/examples/lib ../src/core/libiota_core.a -lunity ../src/crypto/libiota_crypto.a -lsodium 

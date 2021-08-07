@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiota_core.a  CMakeFiles/iota_core.dir/address.c.o CMakeFiles/iota_core.dir/seed.c.o CMakeFiles/iota_core.dir/utils/iota_str.c.o CMakeFiles/iota_core.dir/utils/byte_buffer.c.o CMakeFiles/iota_core.dir/utils/slip10.c.o CMakeFiles/iota_core.dir/utils/bech32.c.o CMakeFiles/iota_core.dir/models/inputs/utxo_input.c.o CMakeFiles/iota_core.dir/models/outputs/outputs.c.o CMakeFiles/iota_core.dir/models/payloads/transaction.c.o CMakeFiles/iota_core.dir/models/payloads/indexation.c.o CMakeFiles/iota_core.dir/models/message.c.o
+/usr/bin/ranlib libiota_core.a

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/pi/iota.c/examples/CMakeFiles/sodium"
+		},
+		{
+			"file" : "/home/pi/iota.c/examples/CMakeFiles/sodium.rule"
+		},
+		{
+			"file" : "/home/pi/iota.c/examples/CMakeFiles/sodium-complete.rule"
+		},
+		{
+			"file" : "/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-install.rule"
+		},
+		{
+			"file" : "/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-mkdir.rule"
+		},
+		{
+			"file" : "/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-download.rule"
+		},
+		{
+			"file" : "/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-update.rule"
+		},
+		{
+			"file" : "/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-patch.rule"
+		},
+		{
+			"file" : "/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-configure.rule"
+		},
+		{
+			"file" : "/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sodium"
+		],
+		"name" : "sodium"
+	}
+}

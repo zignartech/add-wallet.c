@@ -1,0 +1,13 @@
+# Target labels
+ ext_cjson
+# Source files and their labels
+/home/pi/iota.c/build/CMakeFiles/ext_cjson
+/home/pi/iota.c/build/CMakeFiles/ext_cjson.rule
+/home/pi/iota.c/build/CMakeFiles/ext_cjson-complete.rule
+/home/pi/iota.c/build/cjson/src/ext_cjson-stamp/ext_cjson-install.rule
+/home/pi/iota.c/build/cjson/src/ext_cjson-stamp/ext_cjson-mkdir.rule
+/home/pi/iota.c/build/cjson/src/ext_cjson-stamp/ext_cjson-download.rule
+/home/pi/iota.c/build/cjson/src/ext_cjson-stamp/ext_cjson-update.rule
+/home/pi/iota.c/build/cjson/src/ext_cjson-stamp/ext_cjson-patch.rule
+/home/pi/iota.c/build/cjson/src/ext_cjson-stamp/ext_cjson-configure.rule
+/home/pi/iota.c/build/cjson/src/ext_cjson-stamp/ext_cjson-build.rule

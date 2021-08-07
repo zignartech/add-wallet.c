@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/iota.c/build/cjson/src/ext_cjson/cJSON.c
+string.h
+-
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+limits.h
+-
+ctype.h
+-
+float.h
+-
+locale.h
+-
+cJSON.h
+/home/pi/iota.c/build/cjson/src/ext_cjson/cJSON.h
+
+/home/pi/iota.c/build/cjson/src/ext_cjson/cJSON.h
+stddef.h
+-
+

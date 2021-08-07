@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/send_index.dir/send_indexation_msg.c.o CMakeFiles/send_index.dir/__/src/core/seed.c.o  -o send_index   -L/home/pi/iota.c/build/lib  -Wl,-rpath,/home/pi/iota.c/build/lib ../src/wallet/libiota_wallet.a ../src/client/libiota_client.a /usr/lib/aarch64-linux-gnu/libcurl.so -lcjson ../src/core/libiota_core.a ../src/crypto/libiota_crypto.a -lsodium 

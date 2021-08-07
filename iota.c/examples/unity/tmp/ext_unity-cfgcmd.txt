@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_BUILD_TYPE:STRING=;-DCMAKE_INSTALL_PREFIX:STRING=/home/pi/iota.c/examples;-DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

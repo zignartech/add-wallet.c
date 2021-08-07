@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/core_inputs.dir/core/test_inputs.c.o CMakeFiles/core_inputs.dir/__/src/core/seed.c.o  -o core_inputs   -L/home/pi/iota.c/build/lib  -Wl,-rpath,/home/pi/iota.c/build/lib ../src/core/libiota_core.a -lunity ../src/crypto/libiota_crypto.a -lsodium 

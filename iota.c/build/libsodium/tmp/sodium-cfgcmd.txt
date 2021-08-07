@@ -1,0 +1,1 @@
+cmd='/home/pi/iota.c/build/libsodium/src/sodium/configure;--prefix=/home/pi/iota.c/build;--disable-shared;CC=/usr/bin/gcc;CXX=/usr/bin/g++'

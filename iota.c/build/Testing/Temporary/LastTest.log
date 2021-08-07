@@ -1,0 +1,715 @@
+Start testing: Aug 03 06:50 BST
+----------------------------------------------------------
+1/27 Testing: crypto_crypto
+1/27 Test: crypto_crypto
+Command: "/home/pi/iota.c/build/tests/crypto_crypto"
+Directory: /home/pi/iota.c/build/tests
+"crypto_crypto" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/crypto/test_crypto.c:180:test_hmacsha:PASS
+/home/pi/iota.c/tests/crypto/test_crypto.c:181:test_blake2b_hash:PASS
+/home/pi/iota.c/tests/crypto/test_crypto.c:182:test_ed25519_signature:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.81 sec
+----------------------------------------------------------
+Test Passed.
+"crypto_crypto" end time: Aug 03 06:50 BST
+"crypto_crypto" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/27 Testing: core_address
+2/27 Test: core_address
+Command: "/home/pi/iota.c/build/tests/core_address"
+Directory: /home/pi/iota.c/build/tests
+"core_address" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+0xE5, 0x7F, 0xB7, 0x50, 0xF3, 0xA3, 0xA6, 0x79, 0x69, 0xEC, 0xE5, 0xBD, 0x9A, 0xE7, 0xEE, 0xF5, 0xB2, 0x25, 0x6A, 0x81, 0x8B, 0x2A, 0xAC, 0x45, 0x89, 0x41, 0xF7, 0x27, 0x49, 0x85, 0xA4, 0x10, 
+bech32 [iot]: iot1qpg4tqh7vj9s7y9zk2smj8t4qgvse9um42l7apdkhw6syp5ju4w3v6ffg6n
+bech32 [iota]: iota1qpg4tqh7vj9s7y9zk2smj8t4qgvse9um42l7apdkhw6syp5ju4w3v79tf3l
+/home/pi/iota.c/tests/core/test_address.c:138:test_address_gen:PASS
+Bench 1000 address generation
+	min(ms)	max(ms)	avg(ms)	total(ms)
+	0.259	0.378	0.264	264.309
+/home/pi/iota.c/tests/core/test_address.c:139:addr_bench:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"core_address" end time: Aug 03 06:50 BST
+"core_address" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/27 Testing: core_inputs
+3/27 Test: core_inputs
+Command: "/home/pi/iota.c/build/tests/core_inputs"
+Directory: /home/pi/iota.c/build/tests
+"core_inputs" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+[utxo_inputs_add:45] invalid index
+utxo_inputs: [
+	[0] 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 
+	[1] 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 
+	[2] 0x7E, 0x7F, 0x5F, 0xF9, 0x97, 0x2C, 0xF3, 0x96, 0x28, 0x27, 0x2E, 0xBE, 0x36, 0x31, 0x49, 0xAB, 0xA5, 0x58, 0x8B, 0xDD, 0x19, 0xC7, 0x5A, 0xAC, 0xFC, 0x8E, 0x5B, 0xB3, 0x71, 0x2, 0xB1, 0x3A, 
+]
+/home/pi/iota.c/tests/core/test_inputs.c:55:test_utxo_input:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core_inputs" end time: Aug 03 06:50 BST
+"core_inputs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/27 Testing: core_outputs
+4/27 Test: core_outputs
+Command: "/home/pi/iota.c/build/tests/core_outputs"
+Directory: /home/pi/iota.c/build/tests
+"core_outputs" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+[utxo_outputs_add:25] address exists
+[utxo_outputs_add:14] dust allowance amount must at least 1Mi
+utxo_outputs: [
+	type: 0 [1000] 0xAE, 0x31, 0x96, 0x4A, 0xD8, 0xC, 0x2E, 0xC6, 0x22, 0xA5, 0xDD, 0xF5, 0x81, 0xF7, 0x69, 0x51, 0x25, 0xAC, 0x80, 0xEF, 0x5C, 0xBC, 0x4B, 0x41, 0xE, 0x54, 0x41, 0x9B, 0xE7, 0x1B, 0xB4, 0xB4, 
+	type: 0 [9000000] 0x7C, 0xDF, 0x64, 0x85, 0x94, 0x6D, 0x16, 0x50, 0x3E, 0xDF, 0x53, 0x31, 0x1E, 0x32, 0x8F, 0xA1, 0x77, 0x77, 0x51, 0xBD, 0xB2, 0xC7, 0xBA, 0xB5, 0xC4, 0xED, 0x2D, 0x53, 0x93, 0x5C, 0xAF, 0x9A, 
+	type: 1 [1000000] 0x77, 0x98, 0xD1, 0xFD, 0xB7, 0xD1, 0xC, 0x4B, 0x3C, 0xFF, 0xE8, 0x98, 0x41, 0x6, 0x58, 0xCC, 0x98, 0x7D, 0xD0, 0x62, 0x6E, 0xCE, 0xB6, 0x91, 0xD7, 0xA, 0xF3, 0x2C, 0x52, 0x3F, 0xEB, 0x7C, 
+]
+/home/pi/iota.c/tests/core/test_outputs.c:60:test_utxo_outputs:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core_outputs" end time: Aug 03 06:50 BST
+"core_outputs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/27 Testing: core_iota_str
+5/27 Test: core_iota_str
+Command: "/home/pi/iota.c/build/tests/core_iota_str"
+Directory: /home/pi/iota.c/build/tests
+"core_iota_str" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/core/test_iota_str.c:61:test_iota_str:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core_iota_str" end time: Aug 03 06:50 BST
+"core_iota_str" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/27 Testing: core_byte_buffer
+6/27 Test: core_byte_buffer
+Command: "/home/pi/iota.c/build/tests/core_byte_buffer"
+Directory: /home/pi/iota.c/build/tests
+"core_byte_buffer" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/core/test_byte_buffer.c:105:test_byte_buf:PASS
+/home/pi/iota.c/tests/core/test_byte_buffer.c:106:test_hex_convertor:PASS
+/home/pi/iota.c/tests/core/test_byte_buffer.c:107:test_hex_bin:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core_byte_buffer" end time: Aug 03 06:50 BST
+"core_byte_buffer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/27 Testing: core_slip10
+7/27 Test: core_slip10
+Command: "/home/pi/iota.c/build/tests/core_slip10"
+Directory: /home/pi/iota.c/build/tests
+"core_slip10" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+bip32 path: 
+bip32 path: m
+bip32 path: m/0H
+bip32 path: m/0H/1
+bip32 path: m/0H/1/2H
+bip32 path: m/0H/1/2H/2
+bip32 path: m/0H/1/2H/2/1000000000
+bip32 path: m/0'
+bip32 path: m/0'/1
+bip32 path: m/0'/1/2'
+bip32 path: m/0'/1/2'/2
+bip32 path: m/0'/1/2'/2/1000000000
+bip32 path: m/0/2147483647'/1/2147483646'/2
+bip32 path: m/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+bip32 path: m/44'/2147483648
+bip32 path: m/44'/2147483650'
+bip32 path: m/44'/-1
+bip32 path: m/44'//0
+bip32 path: /0'/1/2'
+bip32 path: m/44'/'
+bip32 path: m/44'/'0
+bip32 path: m/44'/0h
+bip32 path: m/44'/0''
+bip32 path: m/44'/0H'
+/home/pi/iota.c/tests/core/test_slip10.c:221:test_bip32path:PASS
+slip10: 000102030405060708090a0b0c0d0e0f, m/0H
+slip10: 000102030405060708090a0b0c0d0e0f, m/0H/1H
+slip10: 000102030405060708090a0b0c0d0e0f, m/0H/1H/2H
+slip10: 000102030405060708090a0b0c0d0e0f, m/0H/1H/2H/2H
+slip10: 000102030405060708090a0b0c0d0e0f, m/0H/1H/2H/2H/1000000000H
+slip10: 000102030405060708090a0b0c0d0e0f, m/0'/1H/2'/2H/1000000000H
+slip10: 000102030405060708090a0b0c0d0e0f, m/0H/1/2H/2H
+slip10: 000102030405060708090a0b0c0d0e0f, m/0H/1H/2H/2A
+slip10: 000102030405060708090a0b0c0d0e0f, m/0H/2147483648H/2H/2A
+slip10: 000102030405060708090a0b0c0d0e0f, m/0H/2H/2H/2147483648H
+slip10: fffcf9f6f3f0edeae7e4e1dedbd8d5d2cfccc9c6c3c0bdbab7b4b1aeaba8a5a29f9c999693908d8a8784817e7b7875726f6c696663605d5a5754514e4b484542, m/0H
+slip10: fffcf9f6f3f0edeae7e4e1dedbd8d5d2cfccc9c6c3c0bdbab7b4b1aeaba8a5a29f9c999693908d8a8784817e7b7875726f6c696663605d5a5754514e4b484542, m/0H/2147483647H
+slip10: fffcf9f6f3f0edeae7e4e1dedbd8d5d2cfccc9c6c3c0bdbab7b4b1aeaba8a5a29f9c999693908d8a8784817e7b7875726f6c696663605d5a5754514e4b484542, m/0H/2147483647H/1H
+slip10: fffcf9f6f3f0edeae7e4e1dedbd8d5d2cfccc9c6c3c0bdbab7b4b1aeaba8a5a29f9c999693908d8a8784817e7b7875726f6c696663605d5a5754514e4b484542, m/0H/2147483647H/1H/2147483646H
+slip10: fffcf9f6f3f0edeae7e4e1dedbd8d5d2cfccc9c6c3c0bdbab7b4b1aeaba8a5a29f9c999693908d8a8784817e7b7875726f6c696663605d5a5754514e4b484542, m/0H/2147483647H/1H/2147483646H/2H
+/home/pi/iota.c/tests/core/test_slip10.c:222:test_derive_key_from_path:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core_slip10" end time: Aug 03 06:50 BST
+"core_slip10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/27 Testing: core_utils_bech32
+8/27 Test: core_utils_bech32
+Command: "/home/pi/iota.c/build/tests/core_utils_bech32"
+Directory: /home/pi/iota.c/build/tests
+"core_utils_bech32" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/core/test_utils_bech32.c:93:test_bech32_decode_encode:PASS
+/home/pi/iota.c/tests/core/test_utils_bech32.c:94:test_bech32_iota_decode_encode:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core_utils_bech32" end time: Aug 03 06:50 BST
+"core_utils_bech32" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/27 Testing: core_transaction
+9/27 Test: core_transaction
+Command: "/home/pi/iota.c/build/tests/core_transaction"
+Directory: /home/pi/iota.c/build/tests
+"core_transaction" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+[tx_essence_serialize_length:106] an input is needed
+/home/pi/iota.c/tests/core/test_transaction.c:153:test_tx_essence_serialization:PASS
+/home/pi/iota.c/tests/core/test_transaction.c:154:test_tx_unlocked_block:PASS
+/home/pi/iota.c/tests/core/test_transaction.c:155:test_tx_payload:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core_transaction" end time: Aug 03 06:50 BST
+"core_transaction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/27 Testing: core_indexation
+10/27 Test: core_indexation
+Command: "/home/pi/iota.c/build/tests/core_indexation"
+Directory: /home/pi/iota.c/build/tests
+"core_indexation" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+02000000050048454C4C4F0C00000048656C6C6F20776F726C6421
+/home/pi/iota.c/tests/core/test_indexation.c:53:test_indexation:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core_indexation" end time: Aug 03 06:50 BST
+"core_indexation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/27 Testing: core_message
+11/27 Test: core_message
+Command: "/home/pi/iota.c/build/tests/core_message"
+Directory: /home/pi/iota.c/build/tests
+"core_message" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/core/test_message.c:57:test_message_with_tx:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core_message" end time: Aug 03 06:50 BST
+"core_message" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/27 Testing: client_http
+12/27 Test: client_http
+Command: "/home/pi/iota.c/build/tests/client_http"
+Directory: /home/pi/iota.c/build/tests
+"client_http" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+data size: 720
+string size: 721
+{"url": "https://httpbin.org/stream/3", "args": {}, "headers": {"Host": "httpbin.org", "X-Amzn-Trace-Id": "Root=1-6108d934-593276a938bd571a39979a61", "Accept": "*/*", "Content-Type": "application/json"}, "origin": "187.86.167.93", "id": 0}
+{"url": "https://httpbin.org/stream/3", "args": {}, "headers": {"Host": "httpbin.org", "X-Amzn-Trace-Id": "Root=1-6108d934-593276a938bd571a39979a61", "Accept": "*/*", "Content-Type": "application/json"}, "origin": "187.86.167.93", "id": 1}
+{"url": "https://httpbin.org/stream/3", "args": {}, "headers": {"Host": "httpbin.org", "X-Amzn-Trace-Id": "Root=1-6108d934-593276a938bd571a39979a61", "Accept": "*/*", "Content-Type": "application/json"}, "origin": "187.86.167.93", "id": 2}
+
+/home/pi/iota.c/tests/client/test_http.c:178:test_https_url:PASS
+data size: 717
+string size: 718
+{"url": "http://httpbin.org/stream/3", "args": {}, "headers": {"Host": "httpbin.org", "X-Amzn-Trace-Id": "Root=1-6108d93a-11920fc250428453374ed2e2", "Accept": "*/*", "Content-Type": "application/json"}, "origin": "187.86.167.93", "id": 0}
+{"url": "http://httpbin.org/stream/3", "args": {}, "headers": {"Host": "httpbin.org", "X-Amzn-Trace-Id": "Root=1-6108d93a-11920fc250428453374ed2e2", "Accept": "*/*", "Content-Type": "application/json"}, "origin": "187.86.167.93", "id": 1}
+{"url": "http://httpbin.org/stream/3", "args": {}, "headers": {"Host": "httpbin.org", "X-Amzn-Trace-Id": "Root=1-6108d93a-11920fc250428453374ed2e2", "Accept": "*/*", "Content-Type": "application/json"}, "origin": "187.86.167.93", "id": 2}
+
+/home/pi/iota.c/tests/client/test_http.c:179:test_http_host_port:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =  14.58 sec
+----------------------------------------------------------
+Test Passed.
+"client_http" end time: Aug 03 06:50 BST
+"client_http" time elapsed: 00:00:14
+----------------------------------------------------------
+
+13/27 Testing: client_json
+13/27 Test: client_json
+Command: "/home/pi/iota.c/build/tests/client_json"
+Directory: /home/pi/iota.c/build/tests
+"client_json" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+[json_get_string:11] invalid parameters
+[json_get_string:17] JSON key not found: key
+[json_get_string:24] str is not a string
+[json_get_string:17] JSON key not found: str
+/home/pi/iota.c/tests/client/test_json.c:311:test_json_string:PASS
+[json_get_boolean:58] invalid parameters
+[json_get_boolean:64] JSON key not found: bool
+[json_get_boolean:71] bool is not a boolean
+[json_get_boolean:71] bool is not a boolean
+[json_get_boolean:71] bool is not a boolean
+[json_get_boolean:71] bool is not a boolean
+/home/pi/iota.c/tests/client/test_json.c:312:test_json_boolean:PASS
+[json_get_int:135] invalid parameters
+[json_get_int:141] JSON key not found: num
+[json_get_int:148] num is not an number
+[json_get_int:148] num is not an number
+[json_get_int:148] num is not an number
+[json_get_int:148] num is not an number
+/home/pi/iota.c/tests/client/test_json.c:313:test_json_int:PASS
+[json_get_uint8:158] invalid parameters
+[json_get_uint8:164] JSON key not found: num
+[json_get_uint8:176] num is not an number
+[json_get_uint8:176] num is not an number
+[json_get_uint8:176] num is not an number
+[json_get_uint8:176] num is not an number
+[json_get_uint8:172] num is not an unsigned number
+/home/pi/iota.c/tests/client/test_json.c:314:test_json_uint8:PASS
+[json_get_uint16:186] invalid parameters
+[json_get_uint16:192] JSON key not found: num
+[json_get_uint16:204] num is not an number
+[json_get_uint16:204] num is not an number
+[json_get_uint16:204] num is not an number
+[json_get_uint16:204] num is not an number
+[json_get_uint16:200] num is not an unsigned number
+/home/pi/iota.c/tests/client/test_json.c:315:test_json_uint16:PASS
+[json_get_uint32:214] invalid parameters
+[json_get_uint32:220] JSON key not found: num
+[json_get_uint32:232] num is not an number
+[json_get_uint32:232] num is not an number
+[json_get_uint32:232] num is not an number
+[json_get_uint32:232] num is not an number
+[json_get_uint32:228] num is not an unsigned number
+/home/pi/iota.c/tests/client/test_json.c:316:test_json_uint32:PASS
+[json_get_uint64:242] invalid parameters
+[json_get_uint64:248] JSON key not found: num
+[json_get_uint64:260] num is not an number
+[json_get_uint64:260] num is not an number
+[json_get_uint64:260] num is not an number
+[json_get_uint64:260] num is not an number
+[json_get_uint64:256] num is not an unsigned number
+/home/pi/iota.c/tests/client/test_json.c:317:test_json_uint64:PASS
+[json_string_array_to_utarray:81] invalid parameters
+[json_string_array_to_utarray:88] JSON key not found: arr
+[json_string_array_to_utarray:103] arr is not an array object
+[json_string_array_to_utarray:103] arr is not an array object
+[json_string_array_to_utarray:103] arr is not an array object
+[json_string_array_to_utarray:103] arr is not an array object
+[json_string_array_to_utarray:103] arr is not an array object
+/home/pi/iota.c/tests/client/test_json.c:318:test_json_str_arr:PASS
+
+-----------------------
+8 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"client_json" end time: Aug 03 06:50 BST
+"client_json" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/27 Testing: client_message_builder
+14/27 Test: client_message_builder
+Command: "/home/pi/iota.c/build/tests/client_message_builder"
+Directory: /home/pi/iota.c/build/tests
+"client_message_builder" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/test_message_builder.c:103:test_msg_indexation:PASS
+/home/pi/iota.c/tests/client/test_message_builder.c:104:test_msg_tx:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"client_message_builder" end time: Aug 03 06:50 BST
+"client_message_builder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/27 Testing: client_get_info
+15/27 Test: client_get_info
+Command: "/home/pi/iota.c/build/tests/client_get_info"
+Directory: /home/pi/iota.c/build/tests
+"client_get_info" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_get_info.c:79:test_deser_node_info:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_get_info" end time: Aug 03 06:50 BST
+"client_get_info" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/27 Testing: client_get_balance
+16/27 Test: client_get_balance
+Command: "/home/pi/iota.c/build/tests/client_get_balance"
+Directory: /home/pi/iota.c/build/tests
+"client_get_balance" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_get_balance.c:102:test_deser_balance_info:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_get_balance" end time: Aug 03 06:50 BST
+"client_get_balance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/27 Testing: client_res_error
+17/27 Test: client_res_error
+Command: "/home/pi/iota.c/build/tests/client_res_error"
+Directory: /home/pi/iota.c/build/tests
+"client_res_error" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_response_error.c:55:test_deser_res_err:PASS
+[deser_error:45] error message is not a string
+/home/pi/iota.c/tests/client/api_v1/test_response_error.c:57:test_deser_err_msg_not_str:PASS
+[deser_error:41]: error code found
+/home/pi/iota.c/tests/client/api_v1/test_response_error.c:59:test_deser_err_not_obj:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_res_error" end time: Aug 03 06:50 BST
+"client_res_error" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/27 Testing: client_get_tips
+18/27 Test: client_get_tips
+Command: "/home/pi/iota.c/build/tests/client_get_tips"
+Directory: /home/pi/iota.c/build/tests
+"client_get_tips" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_get_tips.c:71:test_deser_get_tips:PASS
+/home/pi/iota.c/tests/client/api_v1/test_get_tips.c:72:test_deser_tips_err:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_get_tips" end time: Aug 03 06:50 BST
+"client_get_tips" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/27 Testing: client_output_from_addr
+19/27 Test: client_output_from_addr
+Command: "/home/pi/iota.c/build/tests/client_output_from_addr"
+Directory: /home/pi/iota.c/build/tests
+"client_output_from_addr" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_outputs_from_address.c:89:test_deser_outputs:PASS
+/home/pi/iota.c/tests/client/api_v1/test_outputs_from_address.c:90:test_deser_outputs_err:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_output_from_addr" end time: Aug 03 06:50 BST
+"client_output_from_addr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/27 Testing: client_get_output
+20/27 Test: client_get_output
+Command: "/home/pi/iota.c/build/tests/client_get_output"
+Directory: /home/pi/iota.c/build/tests
+"client_get_output" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_get_output.c:76:test_deser_response_error:PASS
+/home/pi/iota.c/tests/client/api_v1/test_get_output.c:77:test_deser_response:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_get_output" end time: Aug 03 06:50 BST
+"client_get_output" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/27 Testing: client_get_health
+21/27 Test: client_get_health
+Command: "/home/pi/iota.c/build/tests/client_get_health"
+Directory: /home/pi/iota.c/build/tests
+"client_get_health" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+
+-----------------------
+0 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_get_health" end time: Aug 03 06:50 BST
+"client_get_health" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/27 Testing: client_get_message
+22/27 Test: client_get_message
+Command: "/home/pi/iota.c/build/tests/client_get_message"
+Directory: /home/pi/iota.c/build/tests
+"client_get_message" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_get_message.c:341:test_deser_indexation:PASS
+/home/pi/iota.c/tests/client/api_v1/test_get_message.c:342:test_deser_milestone:PASS
+/home/pi/iota.c/tests/client/api_v1/test_get_message.c:343:test_deser_tx1:PASS
+/home/pi/iota.c/tests/client/api_v1/test_get_message.c:344:test_deser_tx2:PASS
+/home/pi/iota.c/tests/client/api_v1/test_get_message.c:345:test_deser_tx_with_index:PASS
+
+-----------------------
+5 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_get_message" end time: Aug 03 06:50 BST
+"client_get_message" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/27 Testing: client_send_message
+23/27 Test: client_send_message
+Command: "/home/pi/iota.c/build/tests/client_send_message"
+Directory: /home/pi/iota.c/build/tests
+"client_send_message" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_send_message.c:190:test_serialize_indexation:PASS
+/home/pi/iota.c/tests/client/api_v1/test_send_message.c:191:test_deser_send_msg_response:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_send_message" end time: Aug 03 06:50 BST
+"client_send_message" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/27 Testing: client_find_message
+24/27 Test: client_find_message
+Command: "/home/pi/iota.c/build/tests/client_find_message"
+Directory: /home/pi/iota.c/build/tests
+"client_find_message" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_find_message.c:60:test_deser_find_msg:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_find_message" end time: Aug 03 06:50 BST
+"client_find_message" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/27 Testing: client_message_meta
+25/27 Test: client_message_meta
+Command: "/home/pi/iota.c/build/tests/client_message_meta"
+Directory: /home/pi/iota.c/build/tests
+"client_message_meta" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+[json_get_boolean:64] JSON key not found: shouldPromote
+[json_get_boolean:64] JSON key not found: shouldReattach
+/home/pi/iota.c/tests/client/api_v1/test_message_meta.c:129:test_deser_mileston_message:PASS
+[json_get_boolean:64] JSON key not found: shouldPromote
+[json_get_boolean:64] JSON key not found: shouldReattach
+[json_get_uint64:248] JSON key not found: milestoneIndex
+/home/pi/iota.c/tests/client/api_v1/test_message_meta.c:130:test_deser_tx_message:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_message_meta" end time: Aug 03 06:50 BST
+"client_message_meta" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/27 Testing: client_message_children
+26/27 Test: client_message_children
+Command: "/home/pi/iota.c/build/tests/client_message_children"
+Directory: /home/pi/iota.c/build/tests
+"client_message_children" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+/home/pi/iota.c/tests/client/api_v1/test_message_children.c:70:test_deser_message_children:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"client_message_children" end time: Aug 03 06:50 BST
+"client_message_children" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/27 Testing: test_wallet_api
+27/27 Test: test_wallet_api
+Command: "/home/pi/iota.c/build/tests/test_wallet_api"
+Directory: /home/pi/iota.c/build/tests
+"test_wallet_api" start time: Aug 03 06:50 BST
+Output:
+----------------------------------------------------------
+[validate_pib44_path:24] Err: invalid length of path
+[wallet_create:195] Err: invalid parameters
+[validate_pib44_path:24] Err: invalid length of path
+[validate_pib44_path:57] Err: invalid path format: hardened is needed
+[validate_pib44_path:66] Err: path format is m/44'/4218'/Account'/Change'
+[validate_pib44_path:66] Err: path format is m/44'/4218'/Account'/Change'
+[validate_pib44_path:66] Err: path format is m/44'/4218'/Account'/Change'
+[validate_pib44_path:57] Err: invalid path format: hardened is needed
+[validate_pib44_path:66] Err: path format is m/44'/4218'/Account'/Change'
+515582FE648B0F10A2B2A1B91D7502190C979BAABFEE85B6BBB5020692E55D16
+BC981BEA9924FE921CF41D7D8C5AE48FB453313FE4A6A1D6E88AC5AE42F0477A
+6D9A35E98E2784A043D555E6B171C797B001C2A1495BC49BCE3BF0ABBDF73977
+B177FCCC51153E638F6DD628A4A73F11A59408F3EA507F8A58A71FA16D2379A3
+48E03225600898784B82DBD72DA1458BDBF63300E29A0203C268E55BF4D05E8F
+/home/pi/iota.c/tests/wallet/test_wallet.c:109:test_wallet_api:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_wallet_api" end time: Aug 03 06:50 BST
+"test_wallet_api" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 03 06:50 BST

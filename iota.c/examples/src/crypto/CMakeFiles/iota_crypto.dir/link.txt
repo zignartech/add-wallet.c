@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiota_crypto.a  CMakeFiles/iota_crypto.dir/iota_crypto.c.o
+/usr/bin/ranlib libiota_crypto.a

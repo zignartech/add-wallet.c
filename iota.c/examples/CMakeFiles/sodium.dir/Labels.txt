@@ -1,0 +1,13 @@
+# Target labels
+ sodium
+# Source files and their labels
+/home/pi/iota.c/examples/CMakeFiles/sodium
+/home/pi/iota.c/examples/CMakeFiles/sodium.rule
+/home/pi/iota.c/examples/CMakeFiles/sodium-complete.rule
+/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-install.rule
+/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-mkdir.rule
+/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-download.rule
+/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-update.rule
+/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-patch.rule
+/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-configure.rule
+/home/pi/iota.c/examples/libsodium/src/sodium-stamp/sodium-build.rule

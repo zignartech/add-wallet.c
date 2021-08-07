@@ -1,0 +1,7 @@
+/home/pi/iota.c/build/include/cjson/cJSON.h
+/home/pi/iota.c/build/lib/pkgconfig/libcjson.pc
+/home/pi/iota.c/build/lib/libcjson.a
+/home/pi/iota.c/build/lib/cmake/cJSON/cjson.cmake
+/home/pi/iota.c/build/lib/cmake/cJSON/cjson-noconfig.cmake
+/home/pi/iota.c/build/lib/cmake/cJSON/cJSONConfig.cmake
+/home/pi/iota.c/build/lib/cmake/cJSON/cJSONConfigVersion.cmake

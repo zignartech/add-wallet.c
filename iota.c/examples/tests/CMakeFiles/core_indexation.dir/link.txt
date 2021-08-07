@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/core_indexation.dir/core/test_indexation.c.o CMakeFiles/core_indexation.dir/__/src/core/seed.c.o  -o core_indexation   -L/home/pi/iota.c/examples/lib  -Wl,-rpath,/home/pi/iota.c/examples/lib ../src/core/libiota_core.a -lunity ../src/crypto/libiota_crypto.a -lsodium 

@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/core_byte_buffer.dir/core/test_byte_buffer.c.o CMakeFiles/core_byte_buffer.dir/__/src/core/seed.c.o  -o core_byte_buffer   -L/home/pi/iota.c/examples/lib  -Wl,-rpath,/home/pi/iota.c/examples/lib ../src/core/libiota_core.a -lunity ../src/crypto/libiota_crypto.a -lsodium 

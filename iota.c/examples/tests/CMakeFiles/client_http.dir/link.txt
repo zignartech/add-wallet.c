@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/client_http.dir/client/test_http.c.o CMakeFiles/client_http.dir/__/src/core/seed.c.o  -o client_http   -L/home/pi/iota.c/examples/lib  -Wl,-rpath,/home/pi/iota.c/examples/lib ../src/client/libiota_client.a -lunity /usr/lib/aarch64-linux-gnu/libcurl.so -lcjson ../src/core/libiota_core.a ../src/crypto/libiota_crypto.a -lsodium 

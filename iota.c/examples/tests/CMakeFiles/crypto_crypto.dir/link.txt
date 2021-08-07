@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/crypto_crypto.dir/crypto/test_crypto.c.o  -o crypto_crypto   -L/home/pi/iota.c/examples/lib  -Wl,-rpath,/home/pi/iota.c/examples/lib ../src/crypto/libiota_crypto.a -lunity -lsodium 

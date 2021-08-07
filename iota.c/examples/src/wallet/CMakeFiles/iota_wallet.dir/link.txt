@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiota_wallet.a  CMakeFiles/iota_wallet.dir/wallet.c.o CMakeFiles/iota_wallet.dir/__/core/seed.c.o
+/usr/bin/ranlib libiota_wallet.a
